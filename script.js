@@ -92,7 +92,7 @@ function updateLapDisplay() {
     if (lapTime === fastest) label = ' (Fastest)';
     if (lapTime === slowest) label = ' (Slowest)';
     if (fastest === slowest) label = ''; // if only 1 lap, no label
-    if (fastest === slowest && laps.length === 1) label = ''; 
+    if (fastest === slowest && laps.length === 1) label = '';
 
     lapDiv.textContent = `Lap ${index + 1}: ${formatTime(lapTime)}${label}`;
 
