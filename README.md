@@ -67,7 +67,7 @@ ghibli-stopwatch/
 ├── style.css          # CSS styles
 ├── script.js          # JavaScript logic
 ├── README.md          # Project documentation
-└── screenshot.png     # Optional screenshot for README
+└── image/demo.png     # screenshot for README
 ```
 
 ---
